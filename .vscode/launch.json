@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Game",
+            "request": "launch",
+            "mainClass": "com.example.hw1_zagorcic_amar/com.example.PacMan.Game",
+            "projectName": "HW1_Zagorcic_Amar"
+        },
+        {
+            "type": "java",
+            "name": "Game2DSTARTER",
+            "request": "launch",
+            "mainClass": "com.example.hw1_zagorcic_amar/com.example.PacMan.Game2DSTARTER",
+            "projectName": "HW1_Zagorcic_Amar"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "com.example.hw1_zagorcic_amar/com.example.PacMan.Server",
+            "projectName": "HW1_Zagorcic_Amar"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Compound",
+            "configurations": [
+                "Server",
+                "Game2DSTARTER",
+                "Game2DSTARTER"
+            ]
+        }
+    ]
+}
